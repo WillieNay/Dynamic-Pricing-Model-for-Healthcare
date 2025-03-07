@@ -1,28 +1,47 @@
-# Dynamic Pricing for Healthcare
+## Healthcare Dynamic Pricing Dashboard
+Welcome to the Healthcare Dynamic Pricing Dashboard, a tool for monitoring pricing trends, demand, and resource utilization in healthcare facilities. This dashboard is built using Streamlit, Pandas, and Plotly to provide interactive data visualization and real-time insights.
 
-This repository contains a Jupyter notebook that explores the concept of **Dynamic Pricing for Healthcare**. The notebook analyzes various approaches and strategies for implementing dynamic pricing in the healthcare industry, ensuring equitable access while optimizing costs.
+*Click here for live demo https://frontend-dashboard-r995dni56yb2xb5q74wpbg.streamlit.app/*
 
-## Features
+*Features*
+1. Key Metrics
+Displays average price, demand, and capacity.
+Gives a quick overview of the current state of healthcare resource management.
+2. Pricing Trends Visualization
+Line graph showing daily pricing trends over the past 30 days.
+Helps track fluctuations and patterns in dynamic pricing.
+3. Demand vs. Capacity Visualization
+Grouped bar chart comparing daily demand and available capacity.
+Enables analysis of resource utilization and unmet demand.
+4. Data Upload
+Supports uploading new data via CSV files.
+Updates the dashboard dynamically with the latest data.
+5. Data Export
+Exports the current dataset to a CSV file.
+Facilitates offline analysis and reporting.
+6. Resource Utilization Table
+Displays detailed information about daily demand, capacity, and prices.
+Styled with currency formatting for prices.
 
-- **Data Analysis**: Investigates trends and patterns in healthcare pricing.
-- **Dynamic Pricing Models**: Develops and evaluates models for adjusting healthcare prices based on factors such as demand, supply, and patient demographics.
-- **Visualization**: Includes charts and graphs to support data-driven insights.
-- **Scalability**: Proposes frameworks that can be adapted to different healthcare systems.
+*Future Enhancements:*
+Integration with live databases for real-time updates.
+Advanced filtering and trend prediction capabilities.
+Support for multiple healthcare facilities.
+License
+This project is licensed under the MIT License.
 
-## Prerequisites
+*Author*
+William Nay
 
-Before running the notebook, ensure you have the following installed:
 
-- Python (>= 3.7)
-- Jupyter Notebook or JupyterLab
-- Required Python packages:
-  - pandas
-  - numpy
-  - matplotlib
-  - seaborn
-  - scikit-learn
 
-You can install the dependencies using:
 
-```bash
-pip install -r requirements.txt
+
+
+
+
+
+
+
+
+

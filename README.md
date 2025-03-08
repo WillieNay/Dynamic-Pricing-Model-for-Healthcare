@@ -1,47 +1,62 @@
-## Healthcare Dynamic Pricing Dashboard
-Welcome to the Healthcare Dynamic Pricing Dashboard, a tool for monitoring pricing trends, demand, and resource utilization in healthcare facilities. This dashboard is built using Streamlit, Pandas, and Plotly to provide interactive data visualization and real-time insights.
+# Dynamic Pricing for Healthcare
 
-*Click here for live demo https://frontend-dashboard-r995dni56yb2xb5q74wpbg.streamlit.app/*
+## Overview
+This project implements a dynamic pricing model for healthcare services, analyzing demand, capacity, and pricing trends. It consists of two main components:
+1. **Jupyter Notebook (`Dynamic_Pricing_for_Healthcare.ipynb`)**: A machine learning-based dynamic pricing model.
+2. **Streamlit Dashboard (`dashboard.py`)**: An interactive web dashboard to monitor and visualize healthcare pricing data.
 
-*Features*
-1. Key Metrics
-Displays average price, demand, and capacity.
-Gives a quick overview of the current state of healthcare resource management.
-2. Pricing Trends Visualization
-Line graph showing daily pricing trends over the past 30 days.
-Helps track fluctuations and patterns in dynamic pricing.
-3. Demand vs. Capacity Visualization
-Grouped bar chart comparing daily demand and available capacity.
-Enables analysis of resource utilization and unmet demand.
-4. Data Upload
-Supports uploading new data via CSV files.
-Updates the dashboard dynamically with the latest data.
-5. Data Export
-Exports the current dataset to a CSV file.
-Facilitates offline analysis and reporting.
-6. Resource Utilization Table
-Displays detailed information about daily demand, capacity, and prices.
-Styled with currency formatting for prices.
+## Features
+### 1. Jupyter Notebook: Dynamic Pricing Model
+- Loads and processes healthcare demand and pricing data.
+- Implements a dynamic pricing algorithm based on demand and capacity fluctuations.
+- Uses machine learning techniques to predict optimal pricing.
+- Provides data visualization to interpret trends and pricing behavior.
 
-*Future Enhancements:*
-Integration with live databases for real-time updates.
-Advanced filtering and trend prediction capabilities.
-Support for multiple healthcare facilities.
-License
-This project is licensed under the MIT License.
+### 2. Streamlit Dashboard: Healthcare Pricing Analytics
+- Displays key pricing, demand, and capacity metrics.
+- Provides interactive line charts and bar graphs for visualizing trends.
+- Allows users to upload new data for real-time analysis.
+- Enables downloading of processed data for further analysis.
 
-*Author*
-William Nay
+## Installation
+### Prerequisites
+Ensure you have Python installed along with the following dependencies:
+```bash
+pip install streamlit pandas numpy plotly jupyter
+```
 
+## Usage
+### Running the Jupyter Notebook
+To run the dynamic pricing model:
+```bash
+jupyter notebook
+```
+Open `Dynamic_Pricing_for_Healthcare.ipynb` and execute the cells to analyze pricing data.
 
+### Running the Streamlit Dashboard
+To launch the interactive dashboard:
+```bash
+streamlit run dashboard.py
+```
+This will open a web-based interface displaying pricing trends and analytics.
 
+Click here for a live demo. https://frontend-dashboard-r995dni56yb2xb5q74wpbg.streamlit.app/
 
+## Data Input
+- The dashboard loads a simulated dataset by default.
+- Users can upload new CSV files to update the analysis.
+- The notebook processes structured healthcare pricing datasets.
 
+## Output
+- The dashboard provides interactive visualizations and downloadable reports.
+- The Jupyter notebook generates pricing insights and model predictions.
 
+## Future Enhancements
+- Integration with real-time hospital data.
+- Advanced machine learning models for better price prediction.
+- User authentication and role-based access control.
 
-
-
-
-
+## Author
+- Nay Linn Htin/Willie Nay
 
 
